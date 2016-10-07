@@ -4,7 +4,7 @@ Docker-nat66 is a daemon managing IPv6 port forwarding for Docker containers. It
 With these IPv6 port-forwarding rules place, the container is accessible using IPv6 the same way as it is using the IPv4 port-forwarding managed by the Docker daemon.
 
 ## Getting docker-nat66
-Docker-nat66 code is written in Go and available on GitHub under Apache licence. To download and build the code (you need the Golang framework):
+Docker-nat66 code is written in Go and available on GitHub under Apache license. To download and build the code (you need the Golang framework):
 ````
 $ git clone https://github.com/bstevant/docker-nat66.git
 $ make
