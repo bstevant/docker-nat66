@@ -28,6 +28,8 @@ The Docker IPv6 prefix is a /64 prefix used to assign IPv6 addresses to the cont
 Docker-nat66 requires the `ip6tables` tool to interact with the netfilter IPv6 tables. This tool should be installed on your Linux system.
 
 ### Start the daemon
+Docker-nat66 is supposed to run on the host, besides the Docker daemon.
+
 Docker-nat66 requires 2 arguments to be run:
 ````
 docker-nat66 -dev <egress interface> -prefix <Docker IPv6 prefix>
